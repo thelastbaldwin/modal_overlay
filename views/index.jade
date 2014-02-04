@@ -3,3 +3,5 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  h2 second title
+  iframe(width='#{video.width}', height='#{video.height}', src='#{video.src}')

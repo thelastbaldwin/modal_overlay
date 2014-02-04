@@ -4,5 +4,5 @@
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Express', video : {'width': 560, 'height' : 315, 'src' : '//www.youtube.com/embed/96E0RfyL2Gc'}});
 };
